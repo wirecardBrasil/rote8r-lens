@@ -37,8 +37,8 @@ dependencies {
     compile(kotlin("stdlib-jdk8"))
     compile("org.jetbrains.kotlin:kotlin-reflect")
     compile("org.springframework.boot:spring-boot-starter-web:${springBootVersion}")
-    compile("br.com.moip.rote8r:core:1.0.2")
-    compile("br.com.moip.rote8r:mongo-repository:1.0.2")
+    compile("br.com.moip.rote8r:core:1.1.0")
+    compile("br.com.moip.rote8r:mongo-repository:1.1.0")
 
     testCompile("junit", "junit", "4.12")
 }
