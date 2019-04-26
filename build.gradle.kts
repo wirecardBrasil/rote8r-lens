@@ -39,7 +39,6 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-web:${springBootVersion}")
     compile("br.com.moip.rote8r:core:1.0.2")
     compile("br.com.moip.rote8r:mongo-repository:1.0.2")
-    compile("de.flapdoodle.embed:de.flapdoodle.embed.mongo:2.2.0")
 
     testCompile("junit", "junit", "4.12")
 }
